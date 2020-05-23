@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/get-json-data-level.js"></script>
     <script type="text/javascript" src="js/scramble-game.js"></script>
-    <script type="text/javascript" src="js/class-toggle.js"></script>
-
+    <script type="text/javascript" src="js/hide-div.js"></script>
         <title>Miss Kate's Academy</title>
 </head>
 <body>
@@ -43,11 +43,16 @@
     <div class="container-fluid chalkboard">
     <div class="long-divider"></div>
     <h2 class="medium-text">Can you remember and unscramble the question?</h2>
+    <h2 class="medium-text hideable">First choose your level:</h2>
+    <div id="level" class="col-12 col-md-8 mx-auto">
+    <button class="button-level hideable beginner" onclick="getBeginner();hideDiv()">Beginner</button>
+    <button class="button-level hideable intermediate" onclick="getIntermediate();hideDiv()">Intermediate</button>
+    <button class="button-level hideable advanced" onclick="getAdvanced();hideDiv()">Advanced</button>
+    </div>
         <div id="memory-game"></div>
     <div id="buttonDiv">
-            <button id="button" class="start mx-auto" onclick="start();changeColour()">Start</button>
+            <button id="start-button" class="hidden" onclick="start()">Start</button>
     </div>
-            <section></section>
     <div class="long-divider"></div>
 
 <!---------------- footer ----------------->
