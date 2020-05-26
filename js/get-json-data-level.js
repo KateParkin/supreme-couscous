@@ -1,5 +1,9 @@
+//the following three functions retrieve the json data for the question depending on the level
+// selected by the user 
+// but I don't then know how to put this data into the game
+
 function getBeginner() {
-    var requestURL = 'https://junokili.github.io/school-for-the-poor/data/configuration.json';
+    var requestURL = 'https://KateParkin.github.io/supreme-couscous/data/configuration.json';
     var xhr = new XMLHttpRequest();
 
     xhr.open('GET', requestURL);
@@ -13,18 +17,18 @@ function getBeginner() {
     }
     function showProblems(jsonObj) {
         var problems = jsonObj["problems"];
-        var origString = "";
+        var questionArray = [];
         for (let i = 0; i < problems.length; i++) {
             if (problems[i].level === "beginner") {
-                var origString = problems[i].statement;
-                console.log(origString);
+                var questionArray = problems[i].data;
+                console.log(questionArray);
             }
         }
     }
 }
 
 function getIntermediate() {
-    var requestURL = 'https://junokili.github.io/school-for-the-poor/data/configuration.json';
+    var requestURL = 'https://KateParkin.github.io/supreme-couscous/data/configuration.json';
     var xhr = new XMLHttpRequest();
 
     xhr.open('GET', requestURL);
@@ -38,17 +42,17 @@ function getIntermediate() {
     }
     function showProblems(jsonObj) {
         var problems = jsonObj["problems"];
-        var origString = "";
+        var questionArray = [];
         for (let i = 0; i < problems.length; i++) {
             if (problems[i].level === "intermediate") {
-                var origString = problems[i].statement;
-                console.log(origString);
+                var questionArray = problems[i].data[i].statement;
+                console.log(questionArray);
             }
         }
     }
 }
 function getAdvanced() {
-    var requestURL = 'https://junokili.github.io/school-for-the-poor/data/configuration.json';
+    var requestURL = 'https://KateParkin.github.io/supreme-couscous/data/configuration.json';
     var xhr = new XMLHttpRequest();
 
     xhr.open('GET', requestURL);
@@ -62,11 +66,11 @@ function getAdvanced() {
     }
     function showProblems(jsonObj) {
         var problems = jsonObj["problems"];
-        var origString = "";
+        var questionArray = [];
         for (let i = 0; i < problems.length; i++) {
             if (problems[i].level === "advanced") {
-                var origString = problems[i].statement;
-                console.log(origString);
+                var questionArray = problems[i].data[i].statement;
+                console.log(questionArray);
             }
         }
     }
