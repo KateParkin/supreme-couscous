@@ -1,0 +1,86 @@
+{
+    "beginner": {
+        "data": [
+            {
+                "statement": "What is your name ?",
+                "answers": [
+                    "What is your name?"
+                ]
+            },
+            {
+                "statement": "Where do you live ?",
+                "answers": [
+                    "Where do you live?"
+                ]
+            },
+            {
+                "statement": "How old are you ?",
+                "answers": [
+                    "How old are you?"
+                ]
+            },
+            {
+                "statement": "Do you have any brothers or sisters ?",
+                "answers": [
+                    "Do you have any brothers or sisters?"
+                ]
+            }
+        ]
+    },
+    "intermediate": {
+        "data": [
+            {
+                "statement": "Will you help me with my homework ?",
+                "answers": [
+                    "Will you help me with my homework?"
+                ]
+            },
+            {
+                "statement": "What are you going to do tomorrow ?",
+                "answers": [
+                    "What are you going to do tomorrow?"
+                ]
+            },
+            {
+                "statement": "It wasn't very good , was it ?",
+                "answers": [
+                    "It wasn't very good, was it?"
+                ]
+            },
+            {
+                "statement": "If I go , will you come with me ?",
+                "answers": [
+                    "If I go , will you come with me?"
+                ]
+            }
+        ]
+    },
+    "advanced": {
+        "data": [
+            {
+                "statement": "Should we have gone to school yesterday ?",
+                "answers": [
+                    "Should we have gone to school yesterday?"
+                ]
+            },
+            {
+                "statement": "If you hadn't come here , what would you be doing ?",
+                "answers": [
+                    "If you hadn't come here, what would you be doing?"
+                ]
+            },
+            {
+                "statement": "Who was supposed to have done the work ?",
+                "answers": [
+                    "Who was supposed to have done the work?"
+                ]
+            },
+            {
+                "statement": "Why didn't you tell me that you couldn't come ?",
+                "answers": [
+                    "Why didn't you tell me that you couldn't come?"
+                ]
+            }
+        ]
+    }
+}
