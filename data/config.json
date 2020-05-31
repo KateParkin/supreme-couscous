@@ -64,9 +64,9 @@
                 ]
             },
             {
-                "statement": "Had you not com here , where would you have gone ?",
+                "statement": "Have you not done your homework yet ?",
                 "answers": [
-                    "Had you not come here, where would you have gone?"
+                    "Have you not done your homework yet?"
                 ]
             },
             {
@@ -76,9 +76,9 @@
                 ]
             },
             {
-                "statement": "Why did you tell me that you had done it ?",
+                "statement": "Why did you tell me you had done it ?",
                 "answers": [
-                    "Why did you tell me that you had done it?"
+                    "Why did you tell me you had done it?"
                 ]
             }
         ]
