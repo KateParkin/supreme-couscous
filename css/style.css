@@ -155,7 +155,6 @@ div#map {
 
 /*---------------- teachers page ----------------- */
 
-
 /*---------------- scramble-game ----------------- */
 
 .button-level {
@@ -170,17 +169,16 @@ div#map {
 }
 
 .beginner {
-    background: #fef900;
-    border-color: #fef900;
-
+  background: #fef900;
+  border-color: #fef900;
 }
 .intermediate {
-    background: #03dddc;
-    border-color: #03dddc;
+  background: #03dddc;
+  border-color: #03dddc;
 }
 .advanced {
-    background: #ff822e;
-    border-color: #ff822e;
+  background: #ff822e;
+  border-color: #ff822e;
 }
 
 #buttonDiv {
@@ -202,23 +200,12 @@ button.start {
   font-size: 24px;
 }
 
-button.restart {
-  background: #f21a1d;
-  color: white;
-  width: 100px;
-  height: 50px;
-  border-radius: 15%;
-  border-color: #f21a1d;
-  text-align: center;
-  vertical-align: center;
-  font-size: 24px;
-}
-
 button.startClicked {
   background: white;
   color: #f21a1d;
   border-color: white;
 }
+
 button:focus {
   outline: none;
 }
@@ -258,16 +245,54 @@ button:focus {
 }
 
 .hidden {
-    height: 0;
-    width: 0;
-    border-radius: 0;
-    font-size: 0px;
-    margin: 0;
-    border-color: transparent;
-    background: transparent;
-    padding:0;
+  height: 0;
+  width: 0;
+  border-radius: 0;
+  font-size: 0px;
+  margin: 0;
+  border-color: transparent;
+  background: transparent;
+  padding: 0;
 }
 
+.swal-text {
+  font-size: 32px;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #444756;
+}
+
+.swal-button {
+  text-align: center;
+  font-size: 24px;
+  background: #a3dda2;
+}
+
+.swal-button--cancel {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  background: #f21a1d;
+}
+
+#completed {
+  min-height: 70px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+button.help {
+  background: #03dddc;
+  border-color: #03dddc;
+  color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 15%;
+  text-align: center;
+  vertical-align: center;
+  font-size: 24px;
+}
 /*---------------- footer ----------------- */
 
 .row {
