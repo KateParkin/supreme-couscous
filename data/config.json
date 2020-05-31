@@ -48,9 +48,9 @@
                 ]
             },
             {
-                "statement": "If I go , will you come with me ?",
+                "statement": "If I go , will you come too ?",
                 "answers": [
-                    "If I go , will you come with me?"
+                    "If I go, will you come too?"
                 ]
             }
         ]
@@ -64,15 +64,15 @@
                 ]
             },
             {
-                "statement": "If you hadn't come here , what would you be doing ?",
+                "statement": "If you hadn't come here , where would you have gone ?",
                 "answers": [
-                    "If you hadn't come here, what would you be doing?"
+                    "If you hadn't come here, where would you have gone?"
                 ]
             },
             {
-                "statement": "Who was supposed to have done the work ?",
+                "statement": "Who was supposed to have done that ?",
                 "answers": [
-                    "Who was supposed to have done the work?"
+                    "Who was supposed to have done that?"
                 ]
             },
             {
