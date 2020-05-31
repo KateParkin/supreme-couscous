@@ -42,9 +42,9 @@
                 ]
             },
             {
-                "statement": "It wasn't very good was it ?",
+                "statement": "It was not very good , was it ?",
                 "answers": [
-                    "It wasn't very good, was it?"
+                    "It was not very good, was it?"
                 ]
             },
             {
@@ -64,9 +64,9 @@
                 ]
             },
             {
-                "statement": "If you hadn't come here , where would you have gone ?",
+                "statement": "Had you not com here , where would you have gone ?",
                 "answers": [
-                    "If you hadn't come here, where would you have gone?"
+                    "Had you not come here, where would you have gone?"
                 ]
             },
             {
@@ -76,9 +76,9 @@
                 ]
             },
             {
-                "statement": "Why didn't you tell me that you couldn't come ?",
+                "statement": "Why did you tell me that you had done it ?",
                 "answers": [
-                    "Why didn't you tell me that you couldn't come?"
+                    "Why did you tell me that you had done it?"
                 ]
             }
         ]
