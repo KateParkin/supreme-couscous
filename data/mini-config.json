@@ -1,0 +1,50 @@
+{
+    "beginner": {
+        "data": [
+            {
+                "statement": "What is your name ?",
+                "answers": [
+                    "What is your name?"
+                ]
+            },
+            {
+                "statement": "Where do you live ?",
+                "answers": [
+                    "Where do you live?"
+                ]
+            }
+        ]
+    },
+    "intermediate": {
+        "data": [
+            {
+                "statement": "Will you help me with my homework ?",
+                "answers": [
+                    "Will you help me with my homework?"
+                ]
+            },
+            {
+                "statement": "What are you going to do tomorrow ?",
+                "answers": [
+                    "What are you going to do tomorrow?"
+                ]
+            }
+        ]
+    },
+    "advanced": {
+        "data": [
+            {
+                "statement": "Should we have gone to school yesterday ?",
+                "answers": [
+                    "Should we have gone to school yesterday?"
+                ]
+            },
+            {
+                "statement": "Have you not done your homework yet ?",
+                "answers": [
+                    "Have you not done your homework yet?"
+                ]
+            }
+        ]
+    }
+}
