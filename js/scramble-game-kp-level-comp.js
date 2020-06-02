@@ -1,5 +1,5 @@
 const CONFIG_ENDPOINT =
-  "https://KateParkin.github.io/supreme-couscous/data/config.json";
+  "https://KateParkin.github.io/supreme-couscous/data/mini-config.json";
 let config = null;
 let level = null;
 let currentIssue = 0;
@@ -29,7 +29,7 @@ function selectStatement(level, restart) {
     // if player clicks restart then reset the question
     currentIssue = currentIssue > 0 ? currentIssue - 1 : 0;
     tileValue = [];
-  }
+  } 
   // else move on to the next question
   let issue = config[level].data[currentIssue++];
   if (!issue) {
@@ -43,7 +43,7 @@ function selectStatement(level, restart) {
       allLevelsCompleted(); // player has completed all levels so change content
     }
   }
-
+  
   function allLevelsCompleted() {
     var el = document.getElementById("buttonDiv");
     el.parentNode.removeChild(el);
